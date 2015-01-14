@@ -1,0 +1,29 @@
+{
+    "name": "maczukin/php-debug",
+    "description": "PHP Debug functions",
+    "keywords": ["debug"],
+    "homepage": "http://github.com/tmaczukin/php-debug",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomasz Maczukin",
+            "email": "tomasz@maczukin.pl",
+            "homepage": "http://maczukin.pl"
+        }
+    ],
+    "require": {
+	"php": ">=5.3"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "autoload": {
+        "file": ["debug.php"]
+    },
+    "target-dir": "Maczukin/PHPDebug",
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "dev"
+}
