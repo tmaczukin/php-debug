@@ -19,7 +19,7 @@
         "squizlabs/php_codesniffer": "~2.0"
     },
     "autoload": {
-        "file": ["debug.php"]
+        "files": ["debug.php"]
     },
     "target-dir": "Maczukin/PHPDebug",
     "config": {
